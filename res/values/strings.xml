@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="wallpaper_lines">Blurred Lines</string>
-	<string name="app_name">Blurred Lines Live Wallpaper</string>
-	<string name="description">Blurred gray lines drawn on black background</string>
-	<string name="wallpaper_settings">Settings</string>
+    <string name="wallpaper_grid">The Grid</string>
+    <string name="app_name">The Grid Live Wallpaper</string>
+    <string name="description">Gray line grid drawn on black background</string>
+    <string name="wallpaper_settings">Settings</string>
     <string name="wallpaper_settings_title">Select colors</string>
     <string name="wallpaper_settings_summary">Choose background and foreground color</string>
     <string name="settings_background_title">Background</string>
     <string name="settings_background_summary">Color of the background</string>
     <string name="settings_lines_title">Line color</string>
-    <string name="settings_lines_summary">Color of the lines</string>    
+    <string name="settings_lines_summary">Color of the lines</string>
     <string name="settings_blur_title">Blur</string>
     <string name="settings_blur_summary">Line blurriness</string>
     <string name="settings_brightness_title">Brightness</string>

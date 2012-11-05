@@ -1,4 +1,4 @@
-package cxa.lineswallpaper;
+package cxa.gridwallpaper;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;

@@ -1,6 +1,6 @@
 package com.jakewharton.utilities;
 
-import cxa.lineswallpaper.R;
+import cxa.gridwallpaper.R;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;

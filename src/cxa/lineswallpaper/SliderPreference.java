@@ -1,5 +1,6 @@
 package cxa.lineswallpaper;
 
+import cxa.gridwallpaper.R;
 import android.content.Context;
 import android.preference.DialogPreference;
 import android.util.AttributeSet;

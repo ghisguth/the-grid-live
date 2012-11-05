@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package cxa.lineswallpaper;
+package cxa.gridwallpaper;
 
 public final class R {
     public static final class attr {
@@ -71,13 +71,13 @@ public final class R {
         public static final int settings_use_smaller_textures_summary_on=0x7f060021;
         public static final int settings_use_smaller_textures_title=0x7f060020;
         public static final int settings_value=0x7f060014;
-        public static final int wallpaper_lines=0x7f060000;
+        public static final int wallpaper_grid=0x7f060000;
         public static final int wallpaper_settings=0x7f060003;
         public static final int wallpaper_settings_summary=0x7f060005;
         public static final int wallpaper_settings_title=0x7f060004;
     }
     public static final class xml {
-        public static final int lines=0x7f040000;
+        public static final int grid=0x7f040000;
         public static final int settings=0x7f040001;
     }
 }

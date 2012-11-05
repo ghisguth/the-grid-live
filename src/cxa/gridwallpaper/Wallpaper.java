@@ -1,4 +1,4 @@
-package cxa.lineswallpaper;
+package cxa.gridwallpaper;
 
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;
@@ -13,9 +13,9 @@ import android.content.SharedPreferences;
 import android.util.Log;
 
 public class Wallpaper extends GLWallpaperService {
-	private static String TAG = "BlurredLinesLive";
+	private static String TAG = "GridLive";
 	private static final boolean DEBUG = false;
-	public static final String SHARED_PREFS_NAME = "blurredlinessettings";
+	public static final String SHARED_PREFS_NAME = "gridsettings";
 
 	private static class ContextFactory implements EGLContextFactory {
 		private static int EGL_CONTEXT_CLIENT_VERSION = 0x3098;
@@ -222,7 +222,7 @@ public class Wallpaper extends GLWallpaperService {
 			setEGLContextFactory(new ContextFactory());
 			setEGLConfigChooser(new ConfigChooser(5, 6, 5, 0, 16, 0));
 
-			GLES20LinesRenderer renderer = new GLES20LinesRenderer(null);
+			GridRenderer renderer = new GridRenderer(null);
 			renderer.setSharedPreferences(preferences);
 			setRenderer(renderer);
 			setRenderMode(RENDERMODE_CONTINUOUSLY);
